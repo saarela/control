@@ -7,7 +7,7 @@ function [p, Ts] = tf2sym(sys)
 % Convert a transfer function to symbolic form. The variable will be s
 % for continuous and z for discrete transfer functions.
     
-% Toni Saarela, 2023
+% Copyright (C) 2023-2025 Toni Saarela
 % 2023-10-25 - ts - written
 % 2025-03-20 - ts - help
   

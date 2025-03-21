@@ -28,7 +28,7 @@ function dsys = cont2disc(sys, Ts, method)
 %
 % Needs the Control and Symbolic toolboxes.
   
-% Toni Saarela, 2023
+% Copyright (C) 2023-2025 Toni Saarela
 % 2023-10-25 - ts - written
 % 2024-12-18 - ts - added impulse, step, and ramp invariance methods
 % 2025-01-25 - ts - added zoh;

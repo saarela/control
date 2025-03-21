@@ -9,9 +9,10 @@ function sys = sym2tf(p, Ts)
 % discrete transfer functions (althoug any variable other than s will
 % give a discrete tf).
   
-% Toni Saarela, 2023
+% Copyright (C) 2023-2025 Toni Saarela
 % 2023-10-25 - ts - written
 % 2024-12-18 - ts - added minreal
+% 2025-03-20 - ts - help
 
   iscont = symvar(p)=='s';
 
